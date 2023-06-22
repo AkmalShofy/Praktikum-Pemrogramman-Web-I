@@ -1,21 +1,18 @@
 <html>
     <body>
-        <h1>Latihan Javascript</h1>
-
-        <p id="demo">
-            Javascript bisa merubah isi elemen HTML
+        <p>
+            Javascript bisa langsung menuliskan ke halaman web:
         </p>
 
         <script>
-            function myFunction()
-            {
-                
-                x=document.getElementById("demo");
-                x.innerHTML="Ini isi terbaru";
-            }
+            document.write("<h1> Ini contoh header </h1>")
+            document.write("<p> Ini bagian paragraf </p>")
         </script>
 
-        <button type="button" onclick="myFunction()">Click Me!</button>
-    
+        <p>
+            Anda bisa menggunakan <strong> document.write</strong>
+            untuk menulis pada halamann web melalui javascript
+        </p>
+
     </body>
 </html>
